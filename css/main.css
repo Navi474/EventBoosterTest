@@ -41,11 +41,22 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-block: 30px;
 }
 
 .event-card {
   border: #fff 1px solid;
+}
+.event-card li {
+  width: 138px;
+  height: 245px;
 }
 
 * {
@@ -66,12 +77,38 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.h1-and-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+  text-align: center;
 }
 
 .title-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 212px;
   font-family: "Montserrat", sans-serif;
   color: #DC56C5;
+  font-size: 18px;
 }
 
 .header-logo {
