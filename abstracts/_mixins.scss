@@ -9,3 +9,7 @@
         @content;
     }
 }
+
+@mixin deep_pink() {
+    color: #DC56C5;
+}

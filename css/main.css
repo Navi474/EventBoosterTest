@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 h1, h2, h3, h4, h5, h6, p, button {
   margin: 0;
   padding: 0;
@@ -28,6 +29,52 @@ address {
   font-style: normal;
 }
 
-main .content_main {
+main {
   background-color: #000;
+  background-image: url("../images/bg-noise.png");
+}
+
+.events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-block: 30px;
+}
+
+.event-card {
+  border: #fff 1px solid;
+}
+
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  color: #000;
+}
+
+header {
+  background-image: url(../images/pic.png);
+  height: 365px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title-text {
+  width: 212px;
+  font-family: "Montserrat", sans-serif;
+  color: #DC56C5;
+}
+
+.header-logo {
+  width: 90px;
+  height: 107px;
 }/*# sourceMappingURL=main.css.map */
