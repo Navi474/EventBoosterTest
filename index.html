@@ -1,314 +1,318 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Booster</title>
-    <link rel="stylesheet" href="./css/main.min.css"/>
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
+
 <body>
-<header class="header">
-    <div class="container">
-        <a class="header-logo" href="index.html">
-            <img src="images/logo.png" alt="logo">
-        </a>
-        <div class="h1-and-form">
-            <h1 class="title-text">FIND BEST EVENTS<br>AROUND THE WORLD</h1>
+    <header class="header">
+        <div class="container">
+            <a class="header-logo" href="index.html">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <div class="h1-and-form">
+                <h1 class="title-text">FIND BEST EVENTS<br>AROUND THE WORLD</h1>
 
-        <form class="search-form" action="/search" method="get">
-            <div class="search_div">
-                <label>
-                    <input type="text" name="search" class="search-input" placeholder="Start searching">
-                </label>
-                <button type="submit">
-                    <img src="images/#" alt="search">
-                </button>
+                <form class="search-form" action="/search" method="get">
+                    <div class="div_label_header">
+                        <div for="text" class="label_header">
+                            <input type="text" name="search" class="search-input" placeholder="Start searching">
+                        </div>
+                        <button type="submit" class="search_button_header">
+                            <img src="images/search_vector.png" width="12px" alt="search">
+                        </button>
+                    </div>
+
+
+                    <div class="select_country">
+                        <div>
+                            <select name="country" class="country_select">
+                                <option value="">Choose country</option>
+                                <option value="ua">Ukraine</option>
+                                <option value="pl">Israel</option>
+                                <option value="de">Germany</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
             </div>
 
-            <div class="select_country">
-                <label>
-                    <select name="country" class="country_select">
-                        <option value="">Choose country</option>
-                        <option value="ua">Ukraine</option>
-                        <option value="pl">Israel</option>
-                        <option value="de">Germany</option>
-                    </select>
-                </label>
-            </div>
-        </form>
         </div>
-        
-    </div>
 
-</header>
+    </header>
 
-<main class="main">
-    <div class="container">
-        <section class="events">
+    <main class="main">
+        <div class="container">
+            <section class="events">
 
-            <ul class="events-grid">
-                <li class="event-card">
-                    <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">Eurovision 2021 finals!</h3>
-                        <p class="event-date">2021-05-13</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                <ul class="events-grid">
+                    <li class="event-card">
+                        <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">Eurovision 2021 finals!</h3>
+                            <p class="event-date">2021-05-13</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Atlas Weekend" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event-title">Atlas Weekend</h3>
-                        <p class="event-date">2021-06-09</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="Atlas Weekend" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event-title">Atlas Weekend</h3>
+                            <p class="event-date">2021-06-09</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="LP" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">LP</h3>
-                        <p class="event-date">2021-07-27</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="LP" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">LP</h3>
+                            <p class="event-date">2021-07-27</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="monatik" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">MONATIK</h3>
-                        <p class="event-date">2021-07-17</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="monatik" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">MONATIK</h3>
+                            <p class="event-date">2021-07-17</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="monatik" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">MONATIK</h3>
-                        <p class="event-date">2021-07-17</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="monatik" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">MONATIK</h3>
+                            <p class="event-date">2021-07-17</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="LP" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">LP</h3>
-                        <p class="event-date">2021-07-27</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="LP" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">LP</h3>
+                            <p class="event-date">2021-07-27</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Atlas Weekend" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event-title">Atlas Weekend</h3>
-                        <p class="event-date">2021-06-09</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="Atlas Weekend" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event-title">Atlas Weekend</h3>
+                            <p class="event-date">2021-06-09</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">Eurovision 2021 finals!</h3>
-                        <p class="event-date">2021-05-13</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">Eurovision 2021 finals!</h3>
+                            <p class="event-date">2021-05-13</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Atlas Weekend" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event-title">Atlas Weekend</h3>
-                        <p class="event-date">2021-06-09</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="Atlas Weekend" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event-title">Atlas Weekend</h3>
+                            <p class="event-date">2021-06-09</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">Eurovision 2021 finals!</h3>
-                        <p class="event-date">2021-05-13</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">Eurovision 2021 finals!</h3>
+                            <p class="event-date">2021-05-13</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="monatik" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">MONATIK</h3>
-                        <p class="event-date">2021-07-17</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="monatik" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">MONATIK</h3>
+                            <p class="event-date">2021-07-17</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="LP" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">LP</h3>
-                        <p class="event-date">2021-07-27</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="LP" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">LP</h3>
+                            <p class="event-date">2021-07-27</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">Eurovision 2021 finals!</h3>
-                        <p class="event-date">2021-05-13</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">Eurovision 2021 finals!</h3>
+                            <p class="event-date">2021-05-13</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="monatik" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">MONATIK</h3>
-                        <p class="event-date">2021-07-17</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="monatik" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">MONATIK</h3>
+                            <p class="event-date">2021-07-17</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="LP" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">LP</h3>
-                        <p class="event-date">2021-07-27</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="LP" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">LP</h3>
+                            <p class="event-date">2021-07-27</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Atlas Weekend" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event-title">Atlas Weekend</h3>
-                        <p class="event-date">2021-06-09</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="Atlas Weekend" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event-title">Atlas Weekend</h3>
+                            <p class="event-date">2021-06-09</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="LP" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">LP</h3>
-                        <p class="event-date">2021-07-27</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="LP" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">LP</h3>
+                            <p class="event-date">2021-07-27</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Atlas Weekend" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event-title">Atlas Weekend</h3>
-                        <p class="event-date">2021-06-09</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="Atlas Weekend" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event-title">Atlas Weekend</h3>
+                            <p class="event-date">2021-06-09</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="monatik" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">MONATIK</h3>
-                        <p class="event-date">2021-07-17</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            VDNH
-                        </p>
-                    </div>
-                </li>
+                    <li class="event-card">
+                        <img src="images/#" alt="monatik" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">MONATIK</h3>
+                            <p class="event-date">2021-07-17</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                VDNH
+                            </p>
+                        </div>
+                    </li>
 
-                <li class="event-card">
-                    <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
-                    <div class="event-info">
-                        <h3 class="event_title">Eurovision 2021 finals!</h3>
-                        <p class="event-date">2021-05-13</p>
-                        <p class="event-location">
-                            <img src="images/#" alt="📍">
-                            Palace of Ukraine
-                        </p>
-                    </div>
-                </li>
-            </ul>
+                    <li class="event-card">
+                        <img src="images/#" alt="Eurovision 2021 finals" class="event-image">
+                        <div class="event-info">
+                            <h3 class="event_title">Eurovision 2021 finals!</h3>
+                            <p class="event-date">2021-05-13</p>
+                            <p class="event-location">
+                                <img src="images/#" alt="📍">
+                                Palace of Ukraine
+                            </p>
+                        </div>
+                    </li>
+                </ul>
 
-            <div class="pagination">
-                <button class="page-btn active">1</button>
-                <button class="page-btn">2</button>
-                <button class="page-btn">3</button>
-                <button class="page-btn">4</button>
-                <button class="page-btn">5</button>
-                <span class="dots">...</span>
-                <button class="page-btn">29</button>
-            </div>
-        </section>
-    </div>
-</main>
+                <div class="pagination">
+                    <button class="page-btn active">1</button>
+                    <button class="page-btn">2</button>
+                    <button class="page-btn">3</button>
+                    <button class="page-btn">4</button>
+                    <button class="page-btn">5</button>
+                    <span class="dots">...</span>
+                    <button class="page-btn">29</button>
+                </div>
+            </section>
+        </div>
+    </main>
 
-<footer class="footer">
-    <div class="container">
-        <p class="footer-text">
-            © 2021 | All Rights Reserved | Developed with ♥ by Ivan Atozhenko and Denys Klymiv
-        </p>
-    </div>
-</footer>
+    <footer class="footer">
+        <div class="foot-container">
+            <p class="footer-text">
+                © 2021 | All Rights Reserved | Developed with ♥ by Ivan Atozhenko and Denys Klymiv
+            </p>
+        </div>
+    </footer>
 
-<include src="./partials/example.html"></include>
+    <include src="./partials/example.html"></include>
 </body>
+
 </html>

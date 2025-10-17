@@ -1,0 +1,24 @@
+footer {
+    background-color: #000;
+    background-image: url("../images/bg-noise.png");
+}
+
+.foot-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(147, 147, 147, 1);
+    width: 258px;
+    @include tab (720px) {
+        font-size: 16px;
+        width: 525px;
+    }
+}
