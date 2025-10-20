@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  position: relative;
   background-image: url(../images/pic.png);
   height: 365px;
 }
@@ -32,16 +33,30 @@ header {
   font-family: "Montserrat", sans-serif;
   color: #DC56C5;
   font-size: 18px;
+  margin-top: 40px;
   @include tab (720px) {
     font-weight: 900;
     font-size: 30px;
     width: 355px;
   }
+  @include desc (1200px) {
+    font-size: 50px;
+    width: 590px;
+  }
 }
 
 .header-logo {
+  position: absolute;
   width: 90px;
   height: 107px;
+  @include tab (720px) {
+    width: 180px;
+    height: 151px;
+  }
+  @include desc (1200px) {
+    width: 238px;
+    height: 201px;
+  }
 }
 
 // .div_label_header {
