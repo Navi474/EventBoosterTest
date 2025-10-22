@@ -110,10 +110,11 @@ header {
   font-family: "Montserrat", sans-serif;
   color: #DC56C5;
   font-size: 18px;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 @media screen and (min-width: 720px) {
   .title-text {
+    margin-top: 40px;
     font-weight: 900;
     font-size: 30px;
     width: 355px;
@@ -224,6 +225,8 @@ header {
 .search-form .div_label_header .search_button_header img {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
+  width: 12px;
+  height: 12px;
 }
 .search-form .select_country {
   width: 100%;
