@@ -1,0 +1,56 @@
+#modal {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(255, 242, 253, 1);
+    border-radius: 150px 0 150px 0;
+    width: 270px;
+    height: 915px;
+    z-index: 3;
+
+    #h3_p_modal {
+        max-width: 240px;
+        font-family: Montserrat;
+    }
+
+    h3 {
+        color: rgba(220, 86, 197, 1);
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    #prices button {
+        border: none;
+        background-color: rgba(76, 0, 254, 1);
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    #more_btn {
+        padding: 10px 3px;
+        background-color: rgba(255, 242, 253, 1);
+        border: 1px solid rgba(76, 0, 254, 1);
+        color: rgba(76, 0, 254, 1);
+        border-radius: 5px;
+    }
+    #close_btn {
+        background: transparent;
+        width: 17px;
+        height: 17px;
+        left: 25px;
+        top: 25px;
+    }
+    #modal_content {
+        display: none;
+    }
+}
