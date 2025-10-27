@@ -517,7 +517,10 @@ footer {
 
 #modal {
   display: none;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
