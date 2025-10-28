@@ -518,9 +518,10 @@ footer {
 #modal {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -535,8 +536,7 @@ footer {
   margin-top: 100px;
   background-color: rgb(255, 242, 253);
   border-radius: 150px 0 150px 0;
-  width: 270px;
-  height: 915px;
+  padding: 75px 15px 105px 15px;
   z-index: 3;
 }
 #modal #h3_p_modal {
@@ -554,6 +554,7 @@ footer {
 #modal #prices button {
   border: none;
   background-color: rgb(76, 0, 254);
+  color: #fff;
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 5px;
@@ -567,12 +568,25 @@ footer {
   border-radius: 5px;
 }
 #modal #close_btn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
   background: transparent;
   width: 17px;
   height: 17px;
-  left: 25px;
-  top: 25px;
 }
 #modal #modal_content {
   display: none;
+  padding: 12px 115px 12px 115px;
+}
+#modal .image_of_band {
+  background-color: #636363;
+  height: 415px;
+}
+@media screen and (min-width: 720px) {
+  #modal .content_of_modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }/*# sourceMappingURL=main.css.map */

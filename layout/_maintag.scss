@@ -57,6 +57,11 @@ main {
     background: transparent;
     overflow: visible;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-wrap: wrap;
+    @include tab (720px) {
+        width: 180px;
+        height: 315px;
+    }
 
     //&:hover {
     //  transform: translateY ;
